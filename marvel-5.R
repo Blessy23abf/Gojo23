@@ -125,7 +125,6 @@ pearson_result <- cor.test(marvel$Appearances, marvel$Universe_numeric, method =
 print("Pearson's Correlation Test Result:")
 print(pearson_result)
 
-# Encode Universe as a numeric variable for correlation
 marvel$Universe_numeric <- as.numeric(factor(marvel$Universe))
 
 # Calculate Pearson's r (now Universe_numeric is numeric)
