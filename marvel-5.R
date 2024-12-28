@@ -212,7 +212,6 @@ print(chi_square_result)
 library(ggplot2)
 library(reshape2)
 
-# Convert table to data frame for visualization
 table_df <- as.data.frame.matrix(contingency_table)
 
 # Add row names as a column manually
