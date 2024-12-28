@@ -214,7 +214,6 @@ library(reshape2)
 
 table_df <- as.data.frame.matrix(contingency_table)
 
-# Add row names as a column manually
 table_df$Alignment <- rownames(table_df)
 rownames(table_df) <- NULL  
 
